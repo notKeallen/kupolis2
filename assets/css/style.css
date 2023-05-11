@@ -113,7 +113,7 @@ footer a{
 footer a:hover{
     text-decoration: none;
     color:#d8d8d8;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .btn-hvr2{
     transition-duration: 0.3s;
@@ -269,6 +269,66 @@ footer a:hover{
     scroll-snap-align: start;
     padding-top: 5vh;
 }
+.terra-slide .container-fluid{
+    padding: 0;
+}
+.terra-slide footer{
+    height: 400px;
+    font-size: 12px;
+    margin-right: 50px;
+    width: 100%;
+    bottom: 0;
+}
+.terra-slide footer img{
+    width: 150px;
+}
+.terra-float{
+    float: left;
+}
+.boxes1 {
+	display: flex;
+	justify-content: space-evenly;
+}
+.box1 {
+	width: 30vw;
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: 200;
+	padding: 0 4vw 4vw;
+    text-align: center;
+}
+.box1:last-child {
+	border-right: 0;
+}
+.box1 .icon {
+	font-size: 4em;
+	color: #555;
+	margin-bottom: 0.6em;
+}
+.box1 .icon:hover {
+	color: #d8d8d8;
+}
+.box1 img{
+  width: 100%;
+}
+.box1 i{
+  font-size: 30px;
+}
+.cena{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+    font-weight: 650;
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+#ponuda h2{
+    text-align: center;
+}
+.slide-show{
+    display: none;
+}
 /* CONTACT */
 
 .map{
@@ -299,12 +359,7 @@ footer a:hover{
     text-decoration: none;
 }
 /* RESPONSIVE CSS */
-@media screen and (max-width: 1920px){
-    #benefiti{
-        padding-top: 30px;
-        padding-bottom: 100px;
-    }
-}
+
 @media (min-width: 1200px){ 
     .abt-pos{
         width: 70%;
@@ -320,6 +375,21 @@ footer a:hover{
         width: 50%;
     }
 }
+@media screen and (max-width: 1920px){
+    #benefiti{
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .terra-float p{
+        font-size: 25px;
+    }
+    .terra-slide h2{
+        font-size: 50px;
+    }
+}
 @media screen and (max-width: 1200px){
     .pho-1{
         display: none;
@@ -333,6 +403,26 @@ footer a:hover{
     #benefiti{
         height: 800px;
     }
+    .terra-float{
+        float: none;
+    }
+    .specs{
+        float: left;
+        margin-left: 30px;
+    }
+    .terra-float img{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .terra-float p{
+        font-size: 22px;
+    }
+    .footer-box{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 1080px){
+
 }
 @media screen and (max-width: 992px){
     .bg-home{
@@ -366,7 +456,12 @@ footer a:hover{
         margin-top: 30px;
         border: 0;
     }
-
+    .cena{
+        width: 80%;
+    }
+    .ft-hide{
+        display: none;
+    }
 }
 @media screen and (max-width: 768px){
     .bg-home{
@@ -381,15 +476,66 @@ footer a:hover{
     .banner-benefit{
         padding-bottom: 150px;
     }
+    .terra-float p{
+        font-size: 18px;
+    }
+    .aw-color{
+        font-size: 18px;
+    }
+    .terra-float img{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .slide-hide{
+        display:none;
+    }
+    .slide-show{
+        display: block;
+    }
+    .slide-show:last-child{
+        padding: 0;
+    }
+    .slide-show footer{
+        height: 100%;
+    }
+    #ponuda h2{
+        margin-bottom: 30px;
+    }
+    .box1{
+        width: 50%;
+        font-size: 14px;
+    }
+    .cena{
+        margin-top: 50px;
+    }
 }
 @media screen and (max-width: 575px){
     .abt-pos, .mar-con{
         width: 95%;
     }
+    .specs{
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 0;
+    }
+    .terra-float .aw-color{
+        margin-right: 0;
+    }
 }
 @media screen and (max-width: 548px){
     .bg-home{
         margin-bottom: 930px;
+    }
+    .terra-float p{
+        font-size: 16px;
+    }
+    .cena{
+        margin-top: 0;
+        width: 100%;
+        font-size: 20px;
+    }
+    .awesome{
+        margin: 0;
     }
 }
 @media screen and (max-width: 450px){
@@ -398,6 +544,27 @@ footer a:hover{
     }
     .bg-abt-1{
         margin-bottom: 830px;
+    }
+    .specs{
+        height: 30px;
+    }
+    .specs:last-child{
+        margin-bottom: 30px;
+    }
+    .terra-float img{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .terra-slide h2{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 380px){
+    .terra-float p{
+        font-size: 14px;
+    }
+    .terra-slide h2{
+        font-size: 45px;
     }
 }
 @media screen and (max-width: 361px){
