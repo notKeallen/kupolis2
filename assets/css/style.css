@@ -329,6 +329,10 @@ footer a:hover{
 .slide-show{
     display: none;
 }
+.box-responsive{
+    display: flex;
+    float: left;
+}
 /* CONTACT */
 
 .map{
@@ -567,6 +571,9 @@ footer a:hover{
         width: 90%;
         margin-left: 5%;
     }
+    .bg-serv{
+        height: 400px;
+    }
     .terra-slide h2{
         margin-top: 10px;
         font-size: 45px;
@@ -611,7 +618,13 @@ footer a:hover{
     }
 }
 @supports (-webkit-touch-callout: none) {
-    *{
+    .bg-abt-1{
+        background-attachment: scroll;
+    }
+    .bg-home{
+        background-attachment: scroll;
+    }
+    .bg-serv{
         background-attachment: scroll;
     }
 }
