@@ -29,7 +29,7 @@ header{
     border: 1px solid #1F2128;
 }
 .logo{
-    width: 150px;
+    width: 200px;
 }
 /* HOME */
 
@@ -45,7 +45,7 @@ header{
     width: 100%;
     margin-top: 100px;
     margin-bottom: 250px;
-    background-image: url('../img/voda3.jpg');
+    background-image: url('../img/floating_widnow.jpg');
     background-attachment: fixed;
     background-size: cover;
     height: 400px;
@@ -139,7 +139,7 @@ footer a:hover{
     background-color: transparent;
 }
 .bg-abt-1{
-    background-image: url('../img/unutrasnjost.JPG');
+    background-image: url('../img/enterijer.jpg');
     background-size: cover;
     background-attachment: fixed;
     height: 400px;
@@ -153,7 +153,7 @@ footer a:hover{
 .abt-pos h3{
     text-align: center;
 }
-.sss{
+.ln-h{
     line-height: 30px;
 }
 #benefiti{
@@ -213,7 +213,7 @@ footer a:hover{
   }
 /* MODELS */
 .bg-serv{
-    background-image: url('../img/unutrasnjost.JPG');
+    background-image: url('../img/floating_widnow2.jpeg');
     background-size: cover;
     background-attachment: fixed;
     height: 300px;
@@ -248,11 +248,11 @@ footer a:hover{
     font-size: 30px;
 }
 .katalog a:hover{
-    background-color: #000;
+    background-color: #1F2128;
     color: #fff;
   }
 .aw-color{
-    color: #000;
+    color: #1F2128;
 }
 .terra::-webkit-scrollbar {
     display: none
@@ -332,6 +332,9 @@ footer a:hover{
 .box-responsive{
     display: flex;
     float: left;
+}
+.specs b{
+    color:#000;
 }
 /* CONTACT */
 
@@ -512,14 +515,19 @@ footer a:hover{
     .cena{
         margin-top: 50px;
     }
+    .none-d{
+        display: none;
+    }
 }
 @media screen and (max-width: 575px){
     .abt-pos, .mar-con{
         width: 95%;
     }
+    .specs i{
+        margin: 0;
+    }
     .specs{
-        float: left;
-        margin-left: 5px;
+        float: none;
         margin-bottom: 0;
     }
     .terra-float .aw-color{
