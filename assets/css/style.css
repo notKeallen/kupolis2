@@ -31,6 +31,9 @@ header{
 .logo{
     width: 200px;
 }
+.invalid{
+    border-bottom: 2px solid red;
+  }
 /* HOME */
 
 .slider{
